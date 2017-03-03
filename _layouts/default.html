@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- <link rel="shortcut icon" type="image/x-icon" href="" /> -->
+	<title>홍익대학교 시각디자인학과 2016 졸업전시회</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+	<script src="bootstrap/jquery.js"></script>
+	<script src="bootstrap/bootstrap.min.js"></script>
+	<script src="function.js"></script>
+	<script> //Go to Mobile Page
+    // Mobile여부를 구분하기 위함
+    var uAgent = navigator.userAgent.toLowerCase();  
+    var mobilePhones = new Array('iphone', 'ipod', 'ipad', 'android', 'blackberry', 'windows ce','nokia', 'webos', 'opera mini', 'sonyericsson', 'opera mobi', 'iemobile');
+    for (var i = 0; i < mobilePhones.length; i++)
+        if (uAgent.indexOf(mobilePhones[i]) != -1)
+           document.location = "mobileindex.html";
+</script>
+	
+</head>
+<body>
+<div class="fullcontainer"> 
+ <iframe src="" frameborder="0" class="containerRight" name="detailView">
+ </iframe>
+
+<div class="container">
+	<div style="padding:0px 10px 0px 33px; display:block; clear:both; margin:auto;">
+		<div class="logo">
+			<img style="margin:10px 0px 0px 0px; width:60px; height:60px;" src="http://www.hongiksidi.com/common/hongiksidi-logo.svg" alt="logo">
+		<div class="desUp">홍익대학교 디자인학부 시각디자인전공 아카이브 2016<br>Archive of major in visual communication design, <br> Schoolof design, Hongik university.</div>
+		</div>
+	</div>
+	<hr>
+	
+	<div class="header row">	
+	<div class="col-xs-12" style="padding:0px 0px 0px 15px; margin-bottom:0px;">
+		<div id="filters">
+			<div class="filterblock">
+				<label for="">중복선택 가능</label>
+				<input id="check1" name="check" type="checkbox" value="Graphic" class="category"><label for="check1">Graphic(34)</label>
+				<input id="check2" name="check" type="checkbox" value="Package" class="category"><label for="check2">Package(18)</label>
+				<input id="check3" name="check" type="checkbox" value="UX/UI/Service" class="category"><label for="check3">UX/UI/Service(35)</label>
+				<input id="check4" name="check" type="checkbox" value="Photography" class="category"><label for="check4">Photography(10)</label>
+				<input id="check5" name="check" type="checkbox" value="Illustration" class="category"><label for="check5">Illustration(32)</label><br>
+				<input id="check6" name="check" type="checkbox" value="Interaction" class="category" style="margin-left:74px;"><label for="check6">Interaction(7)</label>
+				<input id="check7" name="check" type="checkbox" value="Editorial" class="category"><label for="check7">Editorial(13)</label>
+				<input id="check8" name="check" type="checkbox" value="Video" class="category"><label for="check8">Media(13)</label>
+				
+					<!-- <button class="btn btn-default randomView">RandomView</button> -->
+				
+			</div>
+		</div>
+	</div>
+
+	</div><!--header, row-->
+
+	<hr>
+
+		<div class="midHeader">
+			홍익대학교 디자인학부 시각디자인전공 졸업전시회 2016<br>
+		Major in visual communication design, School of design, Hongik university.<br> Graduate exhibition :
+		2016.12.09 - 2016.12.14
+			<!-- 		<div style="font-size:11px">
+			<a href="https://ko.wikipedia.org/wiki/%ED%99%8D%EC%9D%B5%EB%8C%80%ED%95%99%EA%B5%90_%EB%AF%B8%EC%88%A0%EB%8C%80%ED%95%99_%EC%8B%9C%EA%B0%81%EB%94%94%EC%9E%90%EC%9D%B8%ED%95%99%EA%B3%BC" target="_blank">위키피디아 바로가기</a>
+			</div> -->
+
+		<div class="toTop" id="top">
+		<img src="tri.png" alt="" style="width:40%;"><br>
+		</div>
+		
+		</div>
+		<hr>
+
+</div><!--container-->
+
+<div class="bottomBar">Not Filtered
+</div>
+
+<div class="container">
+	<div class="row" style="margin:8px 0px 0px 20px;">
+		{{content}}
+	</div>
+</div>
+
+
+
+</div>
+
+
+<script>
+$(document).ready(function(){
+		
+		magnify();
+		scrollUp();
+		filter();
+		mouseevent();
+		// preview();
+		// imgChange();
+		// filterText();
+		// filterIntercation();
+		// scrollToTarget();
+
+});
+</script>
+
+<script>
+	
+	$(document).ready(function(){
+
+		$('.col-xs-3:eq(1)').find('.abImg').click();
+
+
+	})
+</script>
+
+
+
+
+</body>
+</html>

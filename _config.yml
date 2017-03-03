@@ -1,0 +1,7 @@
+markdown: redcarpet
+baseurl: 
+exclude: ['README.md']
+comments: true
+
+
+

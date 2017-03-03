@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>홍익대학교 시각디자인학과 2016 졸업전시회</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+	<script src="bootstrap/jquery.js"></script>
+	<script src="bootstrap/bootstrap.min.js"></script>
+	<script src="function.js"></script>
+</head>
+<body>
+<div class="container">
+	<div style="padding:0px 10px 0px 10px; display:block; clear:both; margin:auto;">
+		<div class="logo">
+			<img style="width:80px; height:80px;" src="http://www.hongiksidi.com/common/hongiksidi-logo.svg" alt="logo">
+		<div class="desUp">홍익대학교 디자인학부 시각디자인전공 아카이브 2016<br>Archive of major in visual communication design, <br> Schoolof design, Hongik university.</div>
+		</div>
+	</div>
+
+	<div class="header row">	
+	<div class="col-xs-12" style="padding:0px 0px 0px 10px; margin-bottom:20px;">
+		<div id="filters">
+			<div class="filterblock">
+
+				<input id="check1" name="check" type="checkbox" value="Graphic" class="category"><label for="check1">Graphic</label>
+				<input id="check2" name="check" type="checkbox" value="Package" class="category"><label for="check2">Package</label>
+				<input id="check3" name="check" type="checkbox" value="UX/UI" class="category"><label for="check3">UX/UI</label>
+			</div>
+		</div>
+	</div>
+
+	</div><!--header, row-->
+
+</div><!--container-->
+
+
+<div class="container">
+	<div class="row">
+		{{content}}
+	</div>
+</div>
+
+{% include footer.html %}
+
+
+</body>
+</html>

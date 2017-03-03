@@ -1,0 +1,57 @@
+---
+title: Juseng&Saja
+titleK: 저승이와 사자
+author: Ju-eun KIM
+link: images/JueunKIM
+tag: Illustration
+layout: post
+email: nayaje93@gmail.com
+---	
+
+<div class="container">
+
+<div class="deDep">
+{{page.title}}<br>
+<p style="font-size:15px; margin:0px; padding:0px 0px 0px 8px; margin:0px 0px 8px 0px;">- {{page.tag}}</p>
+{{page.author}}<br>
+<p style="font-size:15px; margin:0px; padding:0px 0px 0px 8px;">- {{page.email}}</p>
+</div>
+
+
+<div class="row" class="imgcolor">
+	
+	<div class="col-xs-4">
+	<img src="{{site.baseurl}}/{{page.link}}.jpg" class="deImg" alt=""></div>
+	
+</div>
+<br>
+
+<div class="det lato">
+
+
+
+Are you scared of die?
+Jang-ja sang when his wife had died. His friend reproved that, and Jang-ja said, « Life doesn’t exist. Death and life circulate like changing of season. » Actually the death is really close to our everyday life. A person who think about death in advance lives more actively than who is just feared.
+I made a set of emoticon which is made up of korean expressions concerning death. I hope that people feel more familiar with death of themselves by this emoticon series. You can see the whole emoticons in following address: https://jooeunkim.imweb.me
+
+
+
+</div>
+
+<br>
+
+<div class="noto">
+
+죽음은 무서운 것일까?
+장자는 아내가 죽은 뒤 곡소리를 하지 않고 노래를 했다. 혜자가 그것을 질타하자 장자는 ""삶이란 원래 없는 것이고 죽음과 삶은 계절이 바뀌듯 자연스레 도는 것""이라고 말했다. 즉 죽음과 삶은 그저 동전의 양면 같은 것이며, 항상 우리 일상 가까이에 있다. 죽음을 두려워하는 사람보다 오히려 ‘나의 죽음’을 평상시에 생각하고 살아가는 사람이 '어떻게 살아가야 하는가’를 더 고민하고 적극적으로 살아간다.
+조금 무거운 주제지만 가볍게 다가가기 위해, 일상 생활에서 ‘~해 죽겠다’는 표현을 모아 이모티콘을 만들었다. 이를 통해 사람들이 ‘이미 알고는 있지만 절대 자신에게 오리라곤 생각하지 않는 머나먼’ 자신의 죽음에 대해 조금 더 친숙하게 느끼고 가깝게 생각하기를 바란다. 전체 이모티콘은 아래 주소에서 확인할 수 있다. https://jooeunkim.imweb.me
+
+
+</div>
+
+
+	
+
+</div> 
+
+{% include footer.html %}

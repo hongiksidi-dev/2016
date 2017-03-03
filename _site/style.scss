@@ -1,0 +1,331 @@
+// 2017.02.16 Author: Ji Hoon Lee.
+// Hongik University Design Dept. 
+// Gradudation Archieve Renewal
+// Jekyll, Bootstrap included
+// Non Responsive Page
+@import url('https://fonts.googleapis.com/css?family=Lato');
+//@import "compass/css3" Don't Use
+
+body{
+		
+	.fullcontainer{
+		margin: 0px auto;
+		width:1300px;
+		
+	}
+	
+	.containerRight
+	{
+		width:600px;
+		height:100%;
+		margin-left:700px;
+		z-index:100000;
+		position:fixed;
+		background-color:#f2f2f2;
+		padding-top:10px;
+		// box-shadow:-10px 10px 10px 20 grey;
+			.rightHeader{
+
+			}
+
+			.contents{
+				overflow:scroll;
+				width:560px;
+				height:85%;
+				margin-top:20px;
+			}
+
+	}
+	
+	
+	.container
+	{
+		font-family: 'Lato', sans-serif;
+		font-weight:300;
+		letter-spacing:0.25px;
+		line-height:160%;
+		width:700px;
+		clear:both;
+		margin:0px 10px 20px 0px;
+		box-shadow:-10px 10px 10px 20 grey;
+				
+			.logo
+				{
+					display:flex;
+					margin: 30px 0px 30px 0px;
+				}
+
+
+			.desUp
+			    {
+
+					font-weight:thin;
+					line-height: 150%;
+					font-size:14px;
+					padding:10px 0px 0px 10px;
+					letter-spacing: -0.2px;
+
+			    }
+
+			
+			.col-md-3
+				{
+
+				margin-bottom:50px;
+
+				}
+
+
+	}
+
+	.col-xs-3
+	{
+	width:180px;
+	overflow:hidden;
+	margin-right:30px;
+	margin-bottom:20px;
+
+	}
+
+
+	.row
+	{
+		margin:0px 0px 10px 0px;
+	}
+	
+	.header 
+	{
+		display:flex;
+		margin-top:23px;	
+		// position:fixed;
+		// background-color:white;
+		// z-index:10000;
+
+		
+		ul 
+		{
+		margin:0px;
+		padding:0px;
+		}		
+	
+		li{
+		list-style:none;
+		margin-right:10px;
+		font-size:20px;
+		padding:0px;
+		margin:0px;
+		}
+
+
+		input[type=checkbox]
+		{
+
+		// width:22px;
+		cursor:pointer;
+		// margin:0px 0px 0px 10px;
+		// border: 2px solid #bcbcbc;
+		// content:"";
+		// -ms-transform: scale(2); /* IE */
+		// -moz-transform: scale(2); /* FF */
+		// -webkit-transform: scale(2); /* Safari and Chrome */
+		// -o-transform: scale(2); /* Opera */
+		// padding-right: 10px;
+
+
+		// &:checked 
+		// {
+		
+		// width: 25px;
+		// height: 25px;
+		// }
+
+	
+		}
+
+
+	
+	}
+
+	a
+	{
+		color:#333;
+		text-decoration: none;
+		
+		&:hover
+		
+		{
+			color:#333;
+			text-decoration: none;
+		}
+
+		:after{
+			
+			color:#333;
+			text-decoration: none;
+
+		}
+
+		:before{
+
+			color:#333;
+			text-decoration: none;
+		}
+	}
+
+	label
+	{
+
+		font-family: 'Lato', sans-serif;
+		font-weight:300;
+		letter-spacing:0.25px;
+		line-height:160%;
+
+	}
+
+	#filters
+	{
+
+		// display:block;
+		// margin:auto;
+	}
+
+	.des1
+	{
+
+		line-height:140%;
+		margin:15px 0px 35px 0px;
+		font-size:12px;
+
+
+	}
+
+
+
+	img{
+
+		transition: opacity 1s ease-in-out;
+	}
+
+
+	.abImg
+	{
+		width:250px;
+		height:100px; 
+		overflow:hidden;
+		
+		// min-width: 200px;
+	 	// min-height: 150px;
+
+
+
+	}
+
+	.filterblock
+	{
+
+	text-align:left;
+	display:inline-block;
+	font-size:11px;
+	margin-left:16px;
+	}
+
+	label{
+
+			margin:0px 6px 0px 3px;
+	}
+
+	hr {
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+    width:95%;
+	}
+
+	.midHeader{
+	text-align:left;
+	display:inline-block;
+	font-size:11px;
+	margin-left:35px;
+	}
+
+	.toTop{
+
+		position: fixed;
+    	bottom: 0;
+    	left: 0;
+    	width: 25px;
+   		margin-left:6px;
+   		margin-bottom:58px;
+    	height: 25px;
+    	// border: 3px solid black;
+    	background-color:#333;
+    	color:white;
+    	text-align: center;	
+    	font-size:12px;
+    	padding: 0px 0px 0px 0px;
+    	display:block;
+
+
+
+    	&:hover{
+
+    		cursor:pointer;
+    	}
+	}
+
+
+	.overlay{
+		width:100%;
+		z-index:10;
+		position:absolute;
+		}
+
+	.bottomBar{
+
+		// width:100%;
+		// height:50px;
+		position:fixed;
+		font-size:11px;
+		color:white;
+		bottom:0;
+		left:0;
+		background-color:black;
+		z-index:10000;
+		transition: background-color 0.5s ease;
+		display:inline-block;
+		text-align:center;
+		// border: 2px black solid;
+		padding:5px;
+		opacity:0.9;
+		margin-bottom:30px;
+		margin-left:6px;
+
+		// border-width-right:0px;
+		//border-width-left:0px;
+		//border-width-bottom:0px;
+
+		}
+
+		.randomView{
+
+			font-size:10px;
+		}
+		
+		
+		// .clickpopup{
+
+		// 	background:black;
+		// 	z-index:100;
+		// 	position:fixed;
+		// 	font-size:11px;
+		// 	color:white;
+		// 	top:5%;
+		// 	left:85%;
+		// 	display:block;
+		// 	padding:10px;
+		// 	display:inline-block;
+		// }
+
+
+} //body

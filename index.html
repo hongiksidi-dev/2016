@@ -1,0 +1,44 @@
+---
+layout: default
+---
+	
+{% for post in site.posts %}
+
+<div class="col-xs-3 resultblock" data-tag="{{post.tag}}">
+	<a href="{{site.baseurl}}{{post.url}}" 	target="detailView">
+	<div class="abImg">
+	<img src="{{site.baseurl}}/{{post.link}}.jpg" style="width:10%; height:auto; min-width:100%; min-height: 100%; margin:-50px;">
+		<!-- <img src="{{site.baseurl}}/{{post.link}}1.jpg" style="width:10%; height:auto; min-width:100%; min-height: 100%; margin:-50px;"> -->
+	</div>
+	</a>
+	<div class="deswrapper">
+	<div class="des1">
+		<div style="font-size:12px; width:150px; overflow:hidden; font-weight:500; color:grey; white-space: nowrap; display:inline-block; text-overflow:ellipsis; ">{{post.title}}.{{post.titleK}}<br></div> 
+		<div class="author" style="margin-bottom:4px;"><em>{{post.author}}</em><br></div>
+		<div style="font-size:9px;">{{post.tag}}</div>
+		
+		<!-- <a href="{{site.baseurl}}{{post.url}}" 	target="_blank"><button style="font-size:8px; font-weight:300; display:inline-block; padding:3px; margin:3px 0px 0px 0px;" class= "btn btn-default">detail</button></a>
+ -->
+
+		
+
+		</div>
+<!-- 		<button cltype="button" class="btn btn-primary"></button>
+ -->		</div>
+</div>
+
+
+<script>
+
+var Author = [];
+
+Author.push(new GetAuthorObject('{{post.author}}','{{post.title}}','{{post.link}}','{{post.tag}}'));
+
+</script>
+
+
+ {% endfor %}
+
+
+
+
