@@ -21,13 +21,13 @@ email: tohyonee@gmail.com
 <div class="row" class="imgcolor">
 	
 		<div class="col-xs-4">
-	<img src="{{site.baseurl}}/{{page.link}}1.jpg" class="deImg" alt=""></div>
+	<img src="{{site.baseurl}}/{{page.link}}1.jpg" class="deImg" alt="등록된 이미지가 없습니다."></div>
 		<div class="col-xs-4">
-	<img src="{{site.baseurl}}/{{page.link}}2.jpg" class="deImg" alt=""></div>
+	<img src="{{site.baseurl}}/{{page.link}}2.jpg" class="deImg" alt="등록된 이미지가 없습니다."></div>
 	<div class="col-xs-4">
-	<img src="{{site.baseurl}}/{{page.link}}3.jpg" class="deImg" alt=""></div>
+	<img src="{{site.baseurl}}/{{page.link}}3.jpg" class="deImg" alt="등록된 이미지가 없습니다."></div>
 		<div class="col-xs-4">
-	<img src="{{site.baseurl}}/{{page.link}}4.jpg" class="deImg" alt=""></div>
+	<img src="{{site.baseurl}}/{{page.link}}4.jpg" class="deImg" alt="등록된 이미지가 없습니다."></div>
 	
 </div>
 <br>
@@ -54,7 +54,7 @@ Now is not just a still moment. It is a kind of stream that is piled of experien
 <div class="row noto">
 	
 	<div class="col-xs-4">
-	<img src="{{site.baseurl}}/{{page.link}}1.jpg" class="deImg" alt=""></div>
+	<img src="{{site.baseurl}}/{{page.link}}1.jpg" class="deImg" alt="등록된 이미지가 없습니다."></div>
 	Thinky 기초단계 패키지
 </div>
 

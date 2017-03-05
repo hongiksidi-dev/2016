@@ -21,13 +21,13 @@ email: imku92@gmail.com
 <div class="row" class="imgcolor">
 	
 		<div class="col-xs-4">
-	<img src="{{site.baseurl}}/{{page.link}}1.jpg" class="deImg" alt=""></div>
+	<img src="{{site.baseurl}}/{{page.link}}1.jpg" class="deImg" alt="등록된 이미지가 없습니다."></div>
 		<div class="col-xs-4">
-	<img src="{{site.baseurl}}/{{page.link}}2.jpg" class="deImg" alt=""></div>
+	<img src="{{site.baseurl}}/{{page.link}}2.jpg" class="deImg" alt="등록된 이미지가 없습니다."></div>
 	<div class="col-xs-4">
-	<img src="{{site.baseurl}}/{{page.link}}3.jpg" class="deImg" alt=""></div>
+	<img src="{{site.baseurl}}/{{page.link}}3.jpg" class="deImg" alt="등록된 이미지가 없습니다."></div>
 		<div class="col-xs-4">
-	<img src="{{site.baseurl}}/{{page.link}}4.jpg" class="deImg" alt=""></div>
+	<img src="{{site.baseurl}}/{{page.link}}4.jpg" class="deImg" alt="등록된 이미지가 없습니다."></div>
 	
 </div>
 <br>
@@ -51,4 +51,4 @@ Tactus Braille is a three-dimensional Braille keyboard. So the visually impaired
 
 
 </div>
- {% include footer.html %}
+ {% include footer.html %}*

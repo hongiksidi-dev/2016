@@ -21,13 +21,13 @@ email: miz977@naver.com
 <div class="row" class="imgcolor">
 	
 		<div class="col-xs-4">
-	<img src="{{site.baseurl}}/{{page.link}}1.jpg" class="deImg" alt=""></div>
+	<img src="{{site.baseurl}}/{{page.link}}1.jpg" class="deImg" alt="등록된 이미지가 없습니다."></div>
 		<div class="col-xs-4">
-	<img src="{{site.baseurl}}/{{page.link}}2.jpg" class="deImg" alt=""></div>
+	<img src="{{site.baseurl}}/{{page.link}}2.jpg" class="deImg" alt="등록된 이미지가 없습니다."></div>
 	<div class="col-xs-4">
-	<img src="{{site.baseurl}}/{{page.link}}3.jpg" class="deImg" alt=""></div>
+	<img src="{{site.baseurl}}/{{page.link}}3.jpg" class="deImg" alt="등록된 이미지가 없습니다."></div>
 		<div class="col-xs-4">
-	<img src="{{site.baseurl}}/{{page.link}}4.jpg" class="deImg" alt=""></div>
+	<img src="{{site.baseurl}}/{{page.link}}4.jpg" class="deImg" alt="등록된 이미지가 없습니다."></div>
 	
 </div>
 <br>
@@ -68,7 +68,7 @@ Run to playground, the game is on!
 <div class="row noto">
 	
 	<div class="col-xs-4">
-	<img src="{{site.baseurl}}/{{page.link}}1.jpg" class="deImg" alt=""></div>
+	<img src="{{site.baseurl}}/{{page.link}}1.jpg" class="deImg" alt="등록된 이미지가 없습니다."></div>
 	Thinky 기초단계 패키지
 </div>
 
