@@ -20,8 +20,14 @@ email: mejeon1020@gmail.com
 
 <div class="row" class="imgcolor">
 	
+		<div class="col-xs-4">
+	<img src="{{site.baseurl}}/{{page.link}}1.jpg" class="deImg" alt=""></div>
+		<div class="col-xs-4">
+	<img src="{{site.baseurl}}/{{page.link}}2.jpg" class="deImg" alt=""></div>
 	<div class="col-xs-4">
-	<img src="{{site.baseurl}}/{{page.link}}.jpg" class="deImg" alt=""></div>
+	<img src="{{site.baseurl}}/{{page.link}}3.jpg" class="deImg" alt=""></div>
+		<div class="col-xs-4">
+	<img src="{{site.baseurl}}/{{page.link}}4.jpg" class="deImg" alt=""></div>
 	
 </div>
 <br>
@@ -53,10 +59,4 @@ The title of my project, <1/1>, refers to both my daybook and the whole trip com
 
 
 </div>
-
-
-	
-
-</div> 
-
-{% include footer.html %}
+{% include footer.html %} 

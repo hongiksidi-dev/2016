@@ -20,8 +20,14 @@ email: illi__illi@naver.com
 
 <div class="row" class="imgcolor">
 	
+		<div class="col-xs-4">
+	<img src="{{site.baseurl}}/{{page.link}}1.jpg" class="deImg" alt=""></div>
+		<div class="col-xs-4">
+	<img src="{{site.baseurl}}/{{page.link}}2.jpg" class="deImg" alt=""></div>
 	<div class="col-xs-4">
-	<img src="{{site.baseurl}}/{{page.link}}.jpg" class="deImg" alt=""></div>
+	<img src="{{site.baseurl}}/{{page.link}}3.jpg" class="deImg" alt=""></div>
+		<div class="col-xs-4">
+	<img src="{{site.baseurl}}/{{page.link}}4.jpg" class="deImg" alt=""></div>
 	
 </div>
 <br>
@@ -44,10 +50,4 @@ INTERFACE CITY는 인터페이스가 이미지-텍스트의 해석에 어떠한 
 
 
 </div>
-
-
-	
-
-</div> 
-
-{% include footer.html %}
+ {% include footer.html %}

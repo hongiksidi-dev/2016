@@ -20,8 +20,14 @@ email: dallim0524@gmail.com
 
 <div class="row" class="imgcolor">
 	
+		<div class="col-xs-4">
+	<img src="{{site.baseurl}}/{{page.link}}1.jpg" class="deImg" alt=""></div>
+		<div class="col-xs-4">
+	<img src="{{site.baseurl}}/{{page.link}}2.jpg" class="deImg" alt=""></div>
 	<div class="col-xs-4">
-	<img src="{{site.baseurl}}/{{page.link}}.jpg" class="deImg" alt=""></div>
+	<img src="{{site.baseurl}}/{{page.link}}3.jpg" class="deImg" alt=""></div>
+		<div class="col-xs-4">
+	<img src="{{site.baseurl}}/{{page.link}}4.jpg" class="deImg" alt=""></div>
 	
 </div>
 <br>
@@ -43,10 +49,4 @@ The sea has existed as a human outback, and the place of such mystery has been t
 
 
 </div>
-
-
-	
-
-</div> 
-
-{% include footer.html %}
+{% include footer.html %} 

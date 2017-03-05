@@ -20,8 +20,14 @@ email: dahyun0754@gmail.com
 
 <div class="row" class="imgcolor">
 	
+		<div class="col-xs-4">
+	<img src="{{site.baseurl}}/{{page.link}}1.jpg" class="deImg" alt=""></div>
+		<div class="col-xs-4">
+	<img src="{{site.baseurl}}/{{page.link}}2.jpg" class="deImg" alt=""></div>
 	<div class="col-xs-4">
-	<img src="{{site.baseurl}}/{{page.link}}.jpg" class="deImg" alt=""></div>
+	<img src="{{site.baseurl}}/{{page.link}}3.jpg" class="deImg" alt=""></div>
+		<div class="col-xs-4">
+	<img src="{{site.baseurl}}/{{page.link}}4.jpg" class="deImg" alt=""></div>
 	
 </div>
 <br>
@@ -47,10 +53,4 @@ I have listened to Enka quite a long time. People around me used to say I'm pecu
 
 
 </div>
-
-
-	
-
-</div> 
-
-{% include footer.html %}
+{% include footer.html %} 

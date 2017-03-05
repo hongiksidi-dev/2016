@@ -2,7 +2,7 @@
 title: Dongnae Olympic
 titleK: 동네올림픽
 author: Minkyung Kim
-link: images/MinkyungKim2
+link: images/MinkyungKim_
 tag: UX/UI/Service
 layout: post
 email: miz977@naver.com
@@ -20,8 +20,14 @@ email: miz977@naver.com
 
 <div class="row" class="imgcolor">
 	
+		<div class="col-xs-4">
+	<img src="{{site.baseurl}}/{{page.link}}1.jpg" class="deImg" alt=""></div>
+		<div class="col-xs-4">
+	<img src="{{site.baseurl}}/{{page.link}}2.jpg" class="deImg" alt=""></div>
 	<div class="col-xs-4">
-	<img src="{{site.baseurl}}/{{page.link}}.jpg" class="deImg" alt=""></div>
+	<img src="{{site.baseurl}}/{{page.link}}3.jpg" class="deImg" alt=""></div>
+		<div class="col-xs-4">
+	<img src="{{site.baseurl}}/{{page.link}}4.jpg" class="deImg" alt=""></div>
 	
 </div>
 <br>

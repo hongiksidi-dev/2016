@@ -21,8 +21,13 @@ email: dbswjd1385@naver.com
 <div class="row" class="imgcolor">
 	
 	<div class="col-xs-4">
-	<img src="{{site.baseurl}}/{{page.link}}.jpg" class="deImg" alt=""></div>
-	
+	<img src="{{site.baseurl}}/{{page.link}}1.jpg" class="deImg" alt=""></div>
+		<div class="col-xs-4">
+	<img src="{{site.baseurl}}/{{page.link}}2.jpg" class="deImg" alt=""></div>
+	<div class="col-xs-4">
+	<img src="{{site.baseurl}}/{{page.link}}3.jpg" class="deImg" alt=""></div>
+		<div class="col-xs-4">
+	<img src="{{site.baseurl}}/{{page.link}}4.jpg" class="deImg" alt=""></div>
 </div>
 <br>
 
@@ -51,10 +56,4 @@ GONG-ZONE is a platform where landlords, artists, and citizens can co-exist toge
 
 
 </div>
-
-
-	
-
-</div> 
-
-{% include footer.html %}
+ {% include footer.html %}
