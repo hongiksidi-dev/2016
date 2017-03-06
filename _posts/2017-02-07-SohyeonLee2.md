@@ -55,7 +55,6 @@ Now is not just a still moment. It is a kind of stream that is piled of experien
 	
 	<div class="col-xs-4">
 	<img src="{{site.baseurl}}/{{page.link}}1.jpg" class="deImg" alt="등록된 이미지가 없습니다." onerror="this.style.display='none'"></div>
-	Thinky 기초단계 패키지
 </div>
 
 	
